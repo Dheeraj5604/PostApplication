@@ -3,3 +3,7 @@ import App from "./App.tsx";
 import "./index.css";
 
 createRoot(document.getElementById("root")!).render(<App />);
+
+const PORT = process.env.PORT || 3000;
+
+console.log(`App is running on port ${PORT}`);
